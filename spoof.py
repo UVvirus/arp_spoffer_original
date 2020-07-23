@@ -22,8 +22,8 @@ def get_mac(ip):
 """""
    Output for print(answered_list[0]):
     REQUEST:-(<Ether  dst=ff:ff:ff:ff:ff:ff type=ARP |<ARP  pdst=192.168.1.1 |>>, 
-    RESPONSE:-<Ether  dst=b8:08:cf:fa:cd:19 src=bc:8a:e8:19:ae:b5 type=ARP |<ARP  hwtype=0x1 ptype=IPv4 hwlen=6 plen=4 
-    op=is-at hwsrc=bc:8a:e8:19:ae:b5 psrc=192.168.1.1 hwdst=b8:08:cf:fa:cd:19 pdst=192.168.1.100 |>>)
+    RESPONSE:-<Ether  dst=cc:08:cf:fa:cd:19 src=bc:8a:e8:19:ae:b5 type=ARP |<ARP  hwtype=0x1 ptype=IPv4 hwlen=6 plen=4 
+    op=is-at hwsrc=cc:8a:e8:19:ae:b5 psrc=192.168.1.1 hwdst=cc:08:cf:fa:cd:19 pdst=192.168.1.100 |>>)
 """""
 
 def send_packet(target_ip,spoof_ip):
